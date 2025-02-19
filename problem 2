@@ -1,0 +1,8 @@
+def battery_check(x):
+    if x < 50:
+        print("battery low!")
+    elif x < 100:
+        print("battery ok!")
+    else:
+        print("battery low, please charge!")    
+battery_check(50)
