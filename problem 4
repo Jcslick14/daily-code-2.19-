@@ -1,0 +1,7 @@
+def cost_per_square_inch(diameter, price):
+    radius = diameter / 2
+    area = 3.14 * (radius ** 2)
+    cost_per_inch = price / area
+    return cost_per_inch
+
+print(cost_per_square_inch(2, 2))
